@@ -1,8 +1,6 @@
 <template>
     <AppLayout>
-        <div>
-            Dashboard
-        </div>
+        <div>Team</div>
     </AppLayout>
 </template>
 
@@ -10,8 +8,11 @@
     import AppLayout from "@/Layouts/AppLayout";
 
     export default {
+        name: "Team",
+
         components: {
             AppLayout
         }
     }
 </script>
+
